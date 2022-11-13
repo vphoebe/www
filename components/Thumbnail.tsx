@@ -13,11 +13,12 @@ type ThumbnailProps = {
 
 const LinkButton = ({ href, Icon }: { href: string; Icon: IconType }) => {
   return (
-    <div className="flex-1 bg-indigo-50 justify-center flex items-center hover:bg-indigo-200 cursor-pointer transition-all">
-      <a href={href}>
-        <Icon />
-      </a>
-    </div>
+    <a
+      href={href}
+      className="flex-1 bg-indigo-50 justify-center flex items-center hover:bg-indigo-200 cursor-pointer transition-all"
+    >
+      <Icon />
+    </a>
   );
 };
 

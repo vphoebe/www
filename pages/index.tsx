@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import Thumbnail from "../components/Thumbnail";
 import { SiDiscord, SiTypescript, SiNextdotjs, SiReact } from "react-icons/si";
 
@@ -25,14 +24,14 @@ const Home: NextPage = () => {
             icons={[SiTypescript, SiDiscord]}
           />
           <Thumbnail
-            href="/pkmn"
+            href="https://pkmn-tools.vphoebe.dev/type-chart"
             githubHref="https://github.com/vphoebe/pkmn-tools"
             siteName="Pokémon tools"
             description="Various tools for playing Pokémon games"
             icons={[SiTypescript, SiNextdotjs]}
           />
           <Thumbnail
-            href="/kojima"
+            href="https://kojima-ipsum.vphoebe.dev"
             githubHref="https://github.com/vphoebe/kojima-ipsum"
             siteName="Kojima-ipsum"
             description="Generate lorem ipsum text using words from the works of Hideo Kojima"
