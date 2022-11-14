@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="max-w-7xl mx-auto">
         <h1 className="font-bold text-lg mt-4 mb-6 italic bg-indigo-50 text-indigo-600 py-1 px-4 rounded-sm">
           https://vphoebe.dev
         </h1>
