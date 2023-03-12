@@ -1,7 +1,13 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Thumbnail from "../components/Thumbnail";
-import { SiDiscord, SiTypescript, SiNextdotjs, SiReact } from "react-icons/si";
+import {
+  SiDiscord,
+  SiTypescript,
+  SiNextdotjs,
+  SiReact,
+  SiLua,
+} from "react-icons/si";
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +28,13 @@ const Home: NextPage = () => {
             siteName="Beatnik"
             description="An easy to use Discord bot for YouTube in voice channels"
             icons={[SiTypescript, SiDiscord]}
+          />
+          <Thumbnail
+            href="https://vphoebe.itch.io/salvatore"
+            githubHref="https://github.com/vphoebe/salvatore"
+            siteName="Salvatore"
+            description="A grid-based ship-sinking game for Playdate"
+            icons={[SiLua]}
           />
           <Thumbnail
             href="https://pkmn-tools.vphoebe.dev/type-chart"
